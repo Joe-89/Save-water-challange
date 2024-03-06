@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Madimi One", sans-serif;
+  margin: 40px;
+  border: #000000 solid;
+  border-radius: 15px;
+}
+
+header {
+  background-color: #337ab7;
+  color: #fff;
+  padding: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 40px;
+}
+
+main {
+  padding: 25px;
+}
+
+.tip {
+  border: 4px solid #b1afaf;
+  padding: 20px;
+  text-align: center;
+}
+
+#cislo-tipu {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#text-tipu {
+  height: 150px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+#dalsi-tip {
+  background-color: #337ab7;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#dalsi-tip:hover {
+  opacity: 1;
+}
